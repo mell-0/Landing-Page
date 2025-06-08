@@ -124,5 +124,10 @@ ul {
 .box {
     width: 150px;
     text-align: center;
+    color: #6d6e72;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
