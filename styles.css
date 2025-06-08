@@ -4,6 +4,9 @@ body {
     padding: 0;
 
     font-family: "Roboto";
+    
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -101,6 +104,7 @@ ul {
     align-items: center;
 
     margin-bottom: 100px;
+    /* flex: 1; do i need? */
 }
 
 .info-header {
@@ -131,3 +135,35 @@ ul {
     gap: 10px;
 }
 
+.third-container {
+    background-color: #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8%;
+}
+
+.third-container .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #2c3a4d;
+    margin: 0;
+}
+
+.third-container .quote {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+
+    /* justify-self: flex-end; */
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+.third-box {
+    width: 63%;
+}
