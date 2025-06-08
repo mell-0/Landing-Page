@@ -92,4 +92,37 @@ ul {
 }
 
 
+/*css for 2nd section*/
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second-box {
+    height: 150px; 
+    width: 150px; 
+    border: 4px solid #3882F6;
+    border-radius: 14px;
+}
+
+.boxes-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 150px;
+    text-align: center;
+}
 
