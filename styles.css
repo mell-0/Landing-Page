@@ -152,6 +152,7 @@ ul {
 .third-container .quote-text {
     font-size: 36px;
     font-weight: 300;
+    font-style: italic;
     color: #2c3a4d;
     margin: 0;
 }
