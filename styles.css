@@ -184,11 +184,13 @@ ul {
     color: white;
 }
 
-.inner-first {}
+.inner-first {
+    width: 85%;
+}
 
 .inner-inner-first {
     background-color: #3882F6;
-    padding: 40px 98px;
+    padding: 60px;
     border-radius: 8px;
 
     /* width: 80%; */
@@ -199,7 +201,6 @@ ul {
 
 .inner-inner-first p {
     margin: 0;
-
 }
 
 .inner-inner-first button {
@@ -215,10 +216,13 @@ ul {
 
 
 .fourth-container .header {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
 }
 
+.fourth-container .description {
+    color: #E5E7EB;
+}
 
 
 .footer {
