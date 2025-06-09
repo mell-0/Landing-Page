@@ -69,12 +69,15 @@ ul {
     display: flex;
     justify-content: space-between;
 
+    width: 100%;
+
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
 .first-box .inner-second {
-    width: 40%;
+
+    width: 50%;
 }
 
 .first-box .inner-second p {
@@ -82,7 +85,7 @@ ul {
     margin-bottom: 10px;
 }
 
-.button {
+.inner-second .button {
     background-color: #3882F6;
     color: white;
 
